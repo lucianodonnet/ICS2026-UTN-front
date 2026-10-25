@@ -113,7 +113,7 @@ function ListOrdersPage() {
                   )}
                 </h1>
                 <p className="text-sm sm:text-base text-gray-700 mt-1">Estado: <span className="font-semibold">{order.status}</span></p>
-                <p className="text-sm sm:text-base text-gray-700 mt-1">Total: <span className="font-semibold">${order.totatAmount?.toFixed(2)}</span></p>
+                <p className="text-sm sm:text-base text-gray-700 mt-1">Total: <span className="font-semibold">${order.totalAmount?.toFixed(2)}</span></p>
               </div>
 
               <Button 
