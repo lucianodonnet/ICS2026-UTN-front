@@ -40,7 +40,7 @@ function ListProductsPage() {
           return;
         }
 
-        pagination.setTotal(data?.total || 0);
+        pagination.setTotal(data?.totalItems || 0);
         setProducts(data?.productItems || []);
       } catch (error) {
         pagination.setTotal(0);

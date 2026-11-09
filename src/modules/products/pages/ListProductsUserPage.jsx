@@ -67,7 +67,7 @@ function ListProductsUserPage() {
         return;
       }
 
-      pagination.setTotal(data?.total || 0);
+      pagination.setTotal(data?.totalItems || 0);
       setProducts(data?.productItems || []);
     } finally {
       setLoading(false);
